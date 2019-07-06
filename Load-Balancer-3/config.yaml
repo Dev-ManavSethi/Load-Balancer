@@ -1,0 +1,35 @@
+host: "localhost"
+port: 10000
+scheme: "http"
+servers:
+  - name: "Server K"
+    scheme: "http"
+    host: "localhost"
+    port: 10001
+    connections: 2000
+    
+  - name: "Server L"
+    scheme: "http"
+    host: "localhost"
+    port: 10002
+    connections: 2000
+
+  - name: "Server M"
+    scheme: "http"
+    host: "localhost"
+    port: 10003
+    connections: 2000
+
+  - name: "Server N"
+    scheme: "http"
+    host: "localhost"
+    port: 10004
+    connections: 2000
+    
+  - name: "Server O"
+    scheme: "http"
+    host: "localhost"
+    port: 10005
+    connections: 2000
+
+ 
