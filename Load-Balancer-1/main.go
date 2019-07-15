@@ -18,7 +18,6 @@ func main() {
 
 	ticker = time.NewTicker(1000 * time.Millisecond)
 
-
 	LogInfo("Spinning up load balancer 1...")
 	LogInfo("Reading Config.yaml...")
 
